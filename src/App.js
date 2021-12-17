@@ -1,13 +1,18 @@
 import React from "react";
 import "./App.css";
-import ClassCounterOne from "./components/ClassCounterOne";
-import HookCounterOne from "./components/HookCounterOne";
+import DataFetching from "./components/DataFetching";
 
 function App() {
     return (
         <div className="App">
-            <ClassCounterOne />
-            <HookCounterOne />
+            <DataFetching />
+            {/* <IntervalClassCounter /> */}
+            {/* <IntervalHookCounter /> */}
+            {/* <MouseContainer /> */}
+            {/* <HookMouse /> */}
+            {/* <ClassMouse /> */}
+            {/* <ClassCounterOne /> */}
+            {/* <HookCounterOne /> */}
             {/* <HookCounterFour /> */}
             {/* <HookCounterThree /> */}
             {/* <ClassCounter /> */}
